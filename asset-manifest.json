@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/quranWeb/static/css/main.31aad8c9.css",
+    "main.js": "/quranWeb/static/js/main.d6159130.js",
+    "static/js/787.787e7205.chunk.js": "/quranWeb/static/js/787.787e7205.chunk.js",
+    "static/media/logo.png": "/quranWeb/static/media/logo.09f665930145a25ce501.png",
+    "static/media/pexels-nadim-shaikh-4521947.jpg": "/quranWeb/static/media/pexels-nadim-shaikh-4521947.92ff0b45d020b5ce3171.jpg",
+    "static/media/pexels-safa-6873767.jpg": "/quranWeb/static/media/pexels-safa-6873767.22daba485d8a6d0e8a54.jpg",
+    "static/media/hadith.jpg": "/quranWeb/static/media/hadith.b40fdffc9cdabbdf1f0e.jpg",
+    "static/media/bg4.png": "/quranWeb/static/media/bg4.f2ef3935b8da77329585.png",
+    "static/media/quran.jpg": "/quranWeb/static/media/quran.d5df713b94703c8f1bb4.jpg",
+    "static/media/main-slider-bg.jpg": "/quranWeb/static/media/main-slider-bg.d8c72db20d3eed4618d8.jpg",
+    "static/media/pexels-michael-burrows-7129614.jpg": "/quranWeb/static/media/pexels-michael-burrows-7129614.7bc7a69bcf53a84547f8.jpg",
+    "static/media/صور-الشيخ-الشعراوي-27.jpg": "/quranWeb/static/media/صور-الشيخ-الشعراوي-27.9d4e2533a9c5e331b1f8.jpg",
+    "static/media/faq-img-1.png": "/quranWeb/static/media/faq-img-1.eedc808c43ffcdd7c2ef.png",
+    "static/media/footer-bg.png": "/quranWeb/static/media/footer-bg.e1a1e91057d830c57036.png",
+    "static/media/home-icon-2.webp": "/quranWeb/static/media/home-icon-2.3b34770bbe924861a09a.webp",
+    "index.html": "/quranWeb/index.html",
+    "main.31aad8c9.css.map": "/quranWeb/static/css/main.31aad8c9.css.map",
+    "main.d6159130.js.map": "/quranWeb/static/js/main.d6159130.js.map",
+    "787.787e7205.chunk.js.map": "/quranWeb/static/js/787.787e7205.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31aad8c9.css",
+    "static/js/main.d6159130.js"
+  ]
+}
