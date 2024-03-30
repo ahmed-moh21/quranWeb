@@ -1,0 +1,26 @@
+.Dark-page {
+  width: 106px !important;
+  position: absolute;
+  top: 25px;
+}
+
+
+.mode-dar-before {
+  --background: white;
+  --colors: black;
+  --color: black;
+  --bg-hov: black;
+  --co-hov: white;
+  --background-dif: #323638;
+  --co-head: white;
+  --box-shad: #ffffff66;
+  --co-def: white;
+  --bg-div-dif: #44191991;
+  --co-div-dif-hov: #76592d;
+  --poop: darkgreen;
+  --bg-sama: #2a3e35;
+  --bg-sama-hov: #263217;
+  --col-sa : #784f4f ;
+  --fil: 0.5;
+ 
+}

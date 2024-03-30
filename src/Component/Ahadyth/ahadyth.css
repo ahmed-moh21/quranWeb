@@ -1,0 +1,120 @@
+:root {
+    --background-dif: #607d8b;
+    --color: white;
+    --bg-hov: white;
+    --co-head: burlywood;
+    --fil: 1;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@700&display=swap');
+
+.ahadeyth-head {
+    width: 100%;
+    height: 60vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    filter: brightness(var(--fil));
+    background-attachment: fixed;
+}
+
+.carousel-indicators {
+    display: none;
+}
+
+.ahadeyth-con {
+    margin-top: 6rem;
+}
+
+.carousel-item,
+.ahadeyth-con,
+.carousel-item {
+    height: 17rem;
+    background-color: var(--background-dif);
+    border-radius: 3rem;
+
+}
+
+.carousel-caption {
+    top: 4rem !important;
+}
+
+.carousel-caption h3 {
+    line-height: 1.5;
+    font-family: 'Tajawal', sans-serif;
+    color: var(--co-head);
+    font-weight: 900;
+}
+
+.ahadeyth-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ahadeyth-title {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.ahadeyth-title h3 {
+    font-family: 'Reem Kufi', sans-serif !important;
+    font-size: 3rem;
+}
+
+hr {
+    opacity: 1 !important;
+    color: var(--co-head);
+    width: 100%;
+}
+
+.hr-hade {
+    width: 50%;
+}
+
+.ahadeyth-sec {
+    padding: 20px;
+}
+
+/* 514 660 */
+
+@media screen and (max-width: 514px) {
+    .carousel-caption {
+        top: 2rem !important;
+    }
+
+    .carousel-item,
+    .ahadeyth-con,
+    .carousel-item {
+        height: 23rem;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    hr {
+        width: 140%;
+    }
+
+    .hr-hade {
+        width: 90%;
+    }
+}
+
+#para_id{
+    color: white;
+    font-size: 1.2rem;
+    position: absolute;
+    top: -1rem;
+    background-color: cadetblue;
+    left: -4rem;
+    padding: 10px;
+    border-radius: 15px;
+}
+#para_id span{
+    border-bottom: 3px solid silver;
+}

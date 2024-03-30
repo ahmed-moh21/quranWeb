@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+
+.notif-sec {
+    width: 16rem;
+    position: absolute;
+    padding: 10px;
+    background-color: white;
+    border-left: 6px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    font-size: 1.5rem;
+    top: 7rem;
+    right: 1rem;
+    z-index: 1;
+    transform: translateX(110%);
+    transition: all 0.7s ease-in-out;
+}
+
+.notif-sec-play{
+    transform: translateX(0%)  !important;
+}
+
+.notif-sec-diplay{
+    transform: rotateX(90deg)  !important;
+}
+
+.notif-sec p{
+    font-family: 'Lalezar', cursive;
+    margin: 0px !important;
+}

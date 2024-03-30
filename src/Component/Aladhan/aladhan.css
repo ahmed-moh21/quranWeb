@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@500&display=swap');
+
+.aladhan-page {
+  width: 100%;
+  height: 150vh;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-top: 4px dotted darkslategrey;
+}
+
+#iframe {
+  width: 90%;
+  height: 30%;
+  border: 1.5px solid #b3ab9d;
+  margin: 0px !important;
+  box-shadow: 5px -5px 0px silver,
+    -5px 5px 0px silver;
+  border-radius: 15px;
+}
+
+.aladhan_im {
+  width: 95%;
+  height: 35vh;
+  font-size: 1.4rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: lightsalmon;
+  font-family: 'Reem Kufi', sans-serif;
+  border-radius: 15px;
+}
+
+.aladhan_im p{
+  border-top: 2px solid #85b0c9;
+  border-bottom: 2px solid #85b0c9;
+  background: #00000066;
+  padding: 15px;
+  color: burlywood;
+  border-radius: 10px;
+}
+.widget .table-controller{
+   display: none !important;
+}

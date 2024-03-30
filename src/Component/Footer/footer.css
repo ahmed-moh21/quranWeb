@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@500&display=swap');
+
+.Top {
+    position: relative;
+    width: 100%;
+    height: 25vh;
+    background-color: #297770;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.logo_con {
+    position: absolute;
+    top: -1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.log_o {
+    text-align: center;
+    margin-top: -9vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.log_o img {
+    width: 60px;
+}
+
+.fo_na {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fo_na ul {
+    list-style-type: none;
+    display: flex;
+    direction: ltr;
+}
+
+.fo_na ul li {
+    margin-left: 5rem;
+    transform: scale(2);
+    color: white;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    margin-bottom: 1.5rem;
+    filter: blur(0.5px);
+}
+
+.fo_na ul li:hover {
+    color: #e9de70;
+    transform: scale(3);
+    filter: blur(0px);
+}
+
+.box-ic {
+    transform: scale(1.6);
+    transition: all 0.5s ease-in-out;
+    color: white;
+}
+
+.up-top:hover .box-ic {
+    color: black;
+}
+
+.up-top {
+    position: fixed;
+    bottom: 23px;
+    right: 23px;
+    width: 3rem;
+    height: 3rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 35px;
+    padding: 10px;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    z-index: 99999;
+}
+
+.up-top:hover {
+    background-color: white;
+    color: black;
+}
+
+.show {
+    opacity: 1 !important;
+}
+
+#doneNav {
+    opacity: 0;
+}
+
+.Top p {
+    font-family: 'Reem Kufi';
+    font-size: 1.5rem;
+    color: #efe979;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.aya-fo {
+    margin-top: 1rem;
+    display: flex;
+}
+
+.aya-img {
+    width: 40px;
+}
+
+/* 660 */
+
+
+@media screen and (max-width: 1140px) {
+    .log_o {
+        margin-top: -7vw;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .log_o img {
+        width: 50px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .log_o {
+        margin-top: -6vw;
+    }
+
+    .log_o img {
+        width: 50px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .aya-img {
+        display: none;
+    }
+
+    .log_o {
+        margin-top: -5vw;
+    }
+
+    .log_o img {
+        width: 40px;
+    }
+
+    .Top {
+        height: 35vh;
+    }
+}
+@media screen and (max-width: 506px){
+.log_o img {
+    width: 50px;
+}
+}

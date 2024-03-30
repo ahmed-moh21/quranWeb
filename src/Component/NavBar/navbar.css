@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Gulzar&family=Reem+Kufi:wght@500&display=swap');
+
+.navbar {
+    background-color: #000000e0 !important;
+    opacity: 0.8;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
+    color: white;
+}
+.navbar-brand{
+    display: flex;
+}
+.navbar-toggler{
+    background-color: white;
+}
+.page-nav {
+    font-family: 'Reem Kufi', sans-serif !important;
+    direction: rtl;
+    font-size: 1.4rem;
+}
+
+.logo {
+    width: 4rem;
+    border-radius: 25px;
+}
+
+.nav-con {
+    display: flex;
+    flex-direction: column;
+}
+
+.f-nav {
+    background-color: lightgray;
+    width: 8rem;
+    margin-right: 7px;
+    height: 2px;
+}
+
+.s-nav {
+    background-color: lightgray;
+    width: 0rem;
+    /* 8 */
+    margin-right: 7px;
+    height: 2px;
+    transition: all 0.4s ease-in-out;
+}
+
+.l-nav {
+    background-color: lightgray;
+    width: 0rem;
+    /* 5 */
+    margin-right: 7px;
+    height: 2px;
+    transition: all 0.4s ease-in-out;
+}
+
+.nav-con:hover .s-nav {
+    width: 8rem;
+}
+
+.nav-con:hover .l-nav {
+    width: 5rem;
+}
+
+.nav-con a {
+    margin-left: 1.2rem;
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+.nav-con a:hover{
+    color: cadetblue !important;
+}
+
+.navbar-nav-scroll-play {
+    transform: translateX(0%) !important;
+    transition: all 1s ease-in-out;
+}
+
+.collapse {
+    display: block !important;
+}
+
+/* 991 */
+
+@media screen and (max-width: 991px) {
+    .navbar-nav-scroll {
+        overflow: visible !important;
+        max-height: 25rem !important;
+        position: absolute !important;
+        background: #000000 !important; 
+        width: 15rem;
+        padding: 5px;
+        transform: translateX(120%);
+    }
+}

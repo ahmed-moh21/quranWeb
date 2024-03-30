@@ -1,0 +1,78 @@
+:root {
+  --background: black;
+  --colors: white;
+  --bg-hov: white;
+  --co-hov: black;
+  --fil: 1;
+  --main-color: #009688;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@700&display=swap');
+
+
+.home-page {
+  background-size: 100% 100%;
+  background-origin: border-box;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin-bottom: 11rem;
+}
+
+.home-title h1 {
+  font-family: 'Aref Ruqaa', serif;
+  font-size: 6rem;
+  text-align: center;
+  line-height: 10rem;
+  color: white;
+}
+
+
+.bu-sec {
+  width: 11rem;
+  padding: 10px;
+  text-align: center;
+  position: absolute;
+  top: 35rem;
+}
+
+.bu {
+  width: 11rem;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  font-family: 'Aref Ruqaa', serif;
+  text-align: center;
+  background-color: var(--background);
+  color: var(--colors);
+  border: 2px solid seagreen;
+  transition: all 0.4s ease-in-out;
+}
+
+.bu:hover {
+  background-color:  var(--colors);
+  color:  var(--background);
+}
+
+.left-ic {
+  margin-right: 15px;
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 1024px) {
+  .home-title h1 {
+    font-size: 4rem;
+    line-height: 7rem;
+  }
+}
